@@ -1,7 +1,62 @@
-
 .hero {
     background-color: black;
     padding-bottom: 2rem;
+    position: relative;
+
+    &__modal {
+        background: linear-gradient(0deg, rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)) ,url("../../assets/Pop-Up.png");
+        width: 18rem;
+        height: 21rem;
+        position: absolute;
+        top: 14rem;
+        left: 6.5rem;
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+        }
+
+        &-control {
+            display: flex;
+            width: 100%;
+            justify-content: end;
+        }
+
+        &-exit {
+            width: 1rem;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-title {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+
+        &-description {
+            color: white;
+            font-size: .75rem;
+            margin: 1rem 0;
+        }
+
+        &-button {
+            height: 2rem;
+            font-size: .75rem;
+            font-weight: 600;
+            margin-top: .5rem;
+
+            &:hover {
+                background-color: #f1f1f1;
+            }
+        }
+    }
 
     &__image {
         width: 100%;
