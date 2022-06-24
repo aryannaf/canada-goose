@@ -1,9 +1,13 @@
 import './App.scss';
 import Product from './components/Product/Product';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
-    <Product/>
+    <div>
+      <Hero />
+      <Product />
+    </div>
   );
 }
 
