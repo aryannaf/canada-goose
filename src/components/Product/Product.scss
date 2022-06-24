@@ -1,32 +1,15 @@
 
 .product{
-    background-color: rgb(245, 245, 245);
-    padding-bottom: 1rem;
-
-    &__options{
-        cursor: pointer;
-
-    }
-
-    &__title{
-        display: none;
-    }
-    
-    &__list{
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        padding: 1rem 0;
-        margin: 0 1rem;
-
-    }
-
-    &__item{
-        font-size: 12px;
-    }
+    background: linear-gradient(
+    to bottom,
+    black 0,
+    black 20rem,
+    white 20rem,
+    white 100%
+    );
 
     &__clothes{
-        margin: 1rem;
+        margin: 0 1rem;
     }
 
     &__card{
