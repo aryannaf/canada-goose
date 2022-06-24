@@ -1,30 +1,49 @@
 
 .hero {
+    background-color: black;
+    padding-bottom: 2rem;
 
     &__image {
         width: 100%;
     }
 
     &__label {
-        padding: 0 1rem;
+        padding: 0 1.75rem;
     }
 
     &__title {
-        letter-spacing: .2rem;
-        margin-bottom: 0;
-    }
-
-    &__subtitle {
         font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        font-size: 2.5rem;
-        width: 4rem;
-        margin: .75rem 0;
-        line-height: 2.25rem;
+        font-size: 3rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        color: white;
     }
 
-    &__descriptor {
-        margin: 1.5rem 0;
+    &__tag-line {
+        font-size: 1rem;
+        font-weight: 300;
+        width: 22rem;
+        margin: 1rem 0;
+        margin-top: 1.25rem;
+        line-height: 1.35rem;
+        color: white;
+    }
+
+    &__shop {
+        margin-top: .75rem;
+        border-radius: 0%;
+        border: none;
+        height: 1.75rem;
+        font-size: .65rem;
+        padding: 0 .75rem;
+        font-weight: 600;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+        }
     }
 
     &__product {
