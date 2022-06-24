@@ -1,15 +1,15 @@
 import React from 'react'
 import './Hero.scss';
-import sustainable from '../../assets/sustainable-hero.jpg';
+import hero from '../../assets/Hero.png';
 
 function Hero() {
   return (
     <div className="hero">
-        <img className="hero__image" src={sustainable} alt="two people in forest wearing Canada Goose Chilliwack Fleece Bomber"/>
+        <img className="hero__image" src={hero} alt="video of girl in Canada Goose apparel"/>
         <div className="hero__label">
-            <h5 className="hero__title">HUMANATURE</h5>
-            <h1 className="hero__subtitle">Sustainable styles</h1>
-            <p className="hero__descriptor">Seen in image: <span className="hero__product">Chilliwack Fleece Bomber</span></p>
+            <h1 className="hero__title">Bring Along</h1>
+            <p className="hero__tag-line">Live in the open with light layers ready for every destination.</p>
+            <button className="hero__shop">Shop the Collection</button>
         </div>
     </div>
   )
