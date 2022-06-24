@@ -3,6 +3,7 @@ import './Hero.scss';
 import hero from '../../assets/Hero.png';
 import Modal from 'react-modal';
 import cross from '../../assets/cross.png';
+import { NavLink } from 'react-router-dom'
 
 function Hero() {
 
@@ -39,7 +40,7 @@ function Hero() {
             <div className="hero__modal-content">
               <h2 className="hero__modal-title">Join us Beyond the Parka.</h2>
               <p className="hero__modal-description">Become a member of our sustainability club and join us on our mission to keep the earth cool, while keeping you warm.</p>
-              <button className="hero__modal-button">Learn More</button>
+              <NavLink class="hero__modal-link" to='/beyond'><button className="hero__modal-button">Learn More</button></NavLink>
             </div>
           </div>
         </div>
