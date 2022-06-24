@@ -23,7 +23,7 @@ function Member() {
           <div className="member__card-info">
             <h1 className="member__name">Kind Fleece</h1>
             <p className="member__paragraph">
-              Our sustainable fleece is made from recycled plastic. New colors
+              Our sustainable fleece is made from recycled wool. New colors
               available exclusively to Beyond + members.
             </p>
           </div>
