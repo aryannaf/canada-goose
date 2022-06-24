@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1.75rem;
+
+    &__menu {
+        width: 1rem;
+    }
+
+    &__logo {
+        width: 12.5rem;
+    }
+
+    &__options {
+        width: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__search {
+        width: 1rem;
+    }
+
+    &__cart {
+        width: 1rem;
+    }
+}

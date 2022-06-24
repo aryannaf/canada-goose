@@ -1,0 +1,76 @@
+
+.product{
+    background: linear-gradient(
+    to bottom,
+    black 0,
+    black 20rem,
+    white 20rem,
+    white 100%
+    );
+
+    &__clothes{
+        margin: 0 1rem;
+    }
+
+    &__card{
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+
+    }
+
+    &__image{
+      width: 100%;
+      display: flex;
+    }
+
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 1rem 1rem 1rem; 
+        background-color: white;
+    }
+
+    &__card-info{
+        font-size: 13px;
+        width: 60%;
+    }
+
+    &__color-picker{
+        display: flex;
+        
+    }
+
+    &__color{
+        margin: 0.5rem 1rem 0 0;
+        background-color: lightgrey;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+
+        &--blue{
+            background-color: rgb(12, 12, 218);
+        }
+
+        &--red{
+            background-color: rgb(223, 18, 18);
+        }
+
+        &--yellow{
+            background-color: rgb(240, 240, 14);
+        }
+    }
+
+    &__name{
+
+    }
+
+    &__price{
+        
+    }
+
+    &__colors{
+        font-size: 12px;
+        color: gray;
+    }
+}
