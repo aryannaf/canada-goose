@@ -1,0 +1,35 @@
+
+.hero {
+
+    &__image {
+        width: 100%;
+    }
+
+    &__label {
+        padding: 0 1rem;
+    }
+
+    &__title {
+        letter-spacing: .2rem;
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        width: 4rem;
+        margin: .75rem 0;
+        line-height: 2.25rem;
+    }
+
+    &__descriptor {
+        margin: 1.5rem 0;
+    }
+
+    &__product {
+        font-size: .75rem;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}
