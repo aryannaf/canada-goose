@@ -1,0 +1,75 @@
+
+.beyond{
+
+    background: linear-gradient(
+    to bottom,
+    black 0,
+    black  40rem,
+    rgb(231, 226, 226) 40rem,
+    rgb(231, 226, 226) 100%
+  );
+    font-family: 'Times New Roman', Times, serif;
+
+
+    &__intro{
+        color: white;
+        margin: 1rem;
+    }
+
+    &__title{
+        padding-top: 1rem;
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    &__text{
+        font-size: 0.88rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    &__button{
+        padding: 0.7rem 2rem;
+        background-color: white;
+        border: none;
+        font-weight: bold;
+        margin-bottom: 1rem;
+
+    }
+ 
+    &__info{
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    &__card{
+        width: 307px;
+        margin: 1rem;
+    }
+
+    &__image{
+        display: flex;
+        width: 307px;
+        scroll-snap-align: center;
+        height: 460px ;
+    }
+
+    &__card-info{
+        background-color: white;
+        padding: 1rem 1rem 0 1rem; 
+        font-size: 0.88rem;
+        height: 182px;
+
+    }
+
+    &__name{
+        margin-top: 0;
+        font-weight: 400 ;
+    }
+
+    &__paragraph{
+
+    }
+}

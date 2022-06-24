@@ -22,6 +22,11 @@ function Product() {
           />
           <div className="product__info">
             <div className="product__card-info">
+            <div className="product__color-picker">
+                <div className="product__color product__color--blue"></div>
+                <div className="product__color product__color--red"></div>
+                <div className="product__color product__color--yellow"></div>
+              </div>
               <p className="product__name">Waist Pack</p>
               <p className="product__price">$295</p>
             </div>
@@ -36,6 +41,11 @@ function Product() {
           />
           <div className="product__info">
             <div className="product__card-info">
+              <div className="product__color-picker">
+              <div className="product__color product__color--blue"></div>
+                <div className="product__color product__color--red"></div>
+                <div className="product__color product__color--yellow"></div>
+              </div>
               <p className="product__name">Cypress Puffer Boot</p>
               <p className="product__price">$550</p>
             </div>
@@ -50,6 +60,11 @@ function Product() {
           />
           <div className="product__info">
             <div className="product__card-info">
+            <div className="product__color-picker">
+            <div className="product__color product__color--blue"></div>
+                <div className="product__color product__color--red"></div>
+                <div className="product__color product__color--yellow"></div>
+              </div>
               <p className="product__name">
                 Muskoka Womens Pant Arctic Florals
               </p>

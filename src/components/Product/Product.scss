@@ -52,6 +52,32 @@
         width: 60%;
     }
 
+    &__color-picker{
+        display: flex;
+        
+    }
+
+    &__color{
+        margin: 0.5rem 1rem 0 0;
+        background-color: lightgrey;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+
+        &--blue{
+            background-color: rgb(12, 12, 218);
+        }
+
+        &--red{
+            background-color: rgb(223, 18, 18);
+        }
+
+        &--yellow{
+            background-color: rgb(240, 240, 14);
+        }
+    }
+
     &__name{
 
     }
