@@ -1,27 +1,21 @@
 
-.beyond{
+.member{
+    background-image: url('../../assets/Carousel2_bg.png');
+    background-size: 100% 588.73px;
+    background-repeat: no-repeat;
+    background-color: rgb(231, 226, 226);
 
-    background: linear-gradient(
-    to bottom,
-    black 0,
-    black  40rem,
-    rgb(231, 226, 226) 40rem,
-    rgb(231, 226, 226) 100%
-  );
     font-family: 'Times New Roman', Times, serif;
 
-    &__video{
-        width: 100%;
-    }
 
     &__intro{
-        color: white;
-        margin: 0 1rem 1rem 1rem;
+        margin: 0 1.75rem 1rem 1.75rem;
+        width: 70%;
     }
 
     &__title{
-        padding-top: 1rem;
-        font-size: 2.5rem;
+        padding-top: 2rem;
+        font-size: 1.13rem;
         font-weight: 400;
         margin-top: 0;
     }
@@ -34,11 +28,13 @@
     }
 
     &__button{
-        padding: 0.7rem 2rem;
+        padding: 0.7rem 1.5rem;
         background-color: white;
         border: none;
         font-weight: bold;
         margin-bottom: 1rem;
+        font-size: 0.88rem;
+        width: 190px;
 
     }
  

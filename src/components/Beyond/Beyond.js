@@ -3,10 +3,12 @@ import "./Beyond.scss";
 import carousel_1 from "../../assets/Carousel_1.png";
 import carousel_2 from "../../assets/Carousel_2.png";
 import carousel_3 from "../../assets/Carousel_3.png";
+import video from  "../../assets/Video.png";
 
 function Beyond() {
   return (
     <section className="beyond">
+      <img className="beyond__video" src={video} alt="video"/>
       <div className="beyond__intro">
         <h1 className="beyond__title">Go Beyond +</h1>
         <p className="beyond__text">
