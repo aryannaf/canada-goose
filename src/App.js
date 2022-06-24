@@ -1,18 +1,21 @@
 import './App.scss';
-import Product from './components/Product/Product';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
 import Beyond from './components/Beyond/Beyond';
 import Footer from './components/Footer/Footer';
+import HomePage from './pages/HomePage/HomePage';
 
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Product />
-      <Footer/>
+      <BrowserRouter>
+        <Header />
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+          </Switch>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
